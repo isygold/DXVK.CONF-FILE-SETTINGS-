@@ -1,10 +1,6 @@
 # DXVK.CONF-FILE-SETTINGS-
 * This contains light and extreme dxvk.conf settings to tackle and reduce game stutters and heavy lagging.
 
-
-  ## ABOUT
-This repository contains a collection of high-performance dxvk.conf files optimized for PC emulation on Android. These configurations are specifically tuned for the STAR ENGINE (a custom DXVK fork) and are tested for stability in Star Bionic and Winlator environments. The goal of this project is to bypass common hardware bottlenecks on mobile GPUs—specifically the Adreno 6xx (Snapdragon 680) and Adreno 7xx series—to achieve playable performance in demanding AAA titles.
-
   
 ## Usefulness & Key Features
 * Extreme Draw Call Management: Utilizes the custom starengine.drawThreshold and starengine.bindSkip parameters to aggressively reduce CPU overhead in crowded game areas.
@@ -36,7 +32,9 @@ Launch your game and check the logs; a successful setup will show "Found config 
 
 ## NOTE
 * You can tweak your dxvk.conf to better suit your specific game having heavy stutter and lags which help in reducing its issue, but remember to always have a copy of your previous tweaked dxvk.conf file incase you want to fallback to it
-
+* The XTREME config is best for low amd low-mid budget ADRENO GPU devices and as well may help in mid-high ADRENO GPU device.
+* Sometimes the XTREME configure can break and cause game ro lose some UI groahics and also reduce graphics to the lowest.
+* Fallback to light config if XTREME configuration caused black screen, jitters, missing UI elements and freezing or crashing in ganes
 
 ## License
 This project is released under the MIT License. Permission is hereby granted to use, copy, and modify these configurations. Credit to the Star Emulator Community, jacojay, and Pissblaster for the underlying engine and wrapper developments.
